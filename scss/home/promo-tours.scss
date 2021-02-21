@@ -1,0 +1,217 @@
+.promo-tours {
+  max-width: 1280px;
+  min-height: 304px;
+  margin: -50px auto 0 auto;
+  //background-color: aqua;
+  display: flex;
+  //flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 160px;
+  padding-right: 160px;
+
+  //israel
+  .promo1 {
+    height: 304px;
+    width: 236px;
+    background-image: linear-gradient(to right, $overlay, $overlay),
+      url(../images/tours/tour-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .trip-title {
+      width: 182px;
+      height: 80px;
+      margin: 0 auto;
+      margin-top: 20px;
+
+      p {
+        text-align: center;
+        text-decoration: none;
+        color: $white;
+        font-family: ProximaThin;
+        font-size: 60px;
+      }
+    }
+
+    .price-text {
+      width: 182px;
+      height: 40px;
+      margin: 0 auto;
+      margin-top: -10px;
+
+      p {
+        text-align: center;
+        text-decoration: none;
+        color: $white;
+        font-family: ProximaThin;
+        font-size: 30px;
+      }
+    }
+
+    .blue-button {
+      width: 122px;
+      height: 40px;
+      margin: 0 auto;
+      margin-top: 80px;
+
+      button {
+        padding: 15px;
+        border: none;
+        border-radius: 25px;
+        white-space: nowrap;
+        background-color: $site-blue;
+        color: $white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Gill;
+      }
+    }
+  }
+
+  //u.s.a.
+  .promo2 {
+    height: 304px;
+    width: 236px;
+    background-image: linear-gradient(to right, $overlay, $overlay),
+      url(../images/tours/tour-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .trip-title {
+      width: 182px;
+      height: 80px;
+      margin: 0 auto;
+      margin-top: 20px;
+
+      p {
+        text-align: center;
+        text-decoration: none;
+        color: $white;
+        font-family: ProximaThin;
+        font-size: 60px;
+      }
+    }
+
+    .price-text {
+      width: 182px;
+      height: 40px;
+      margin: 0 auto;
+      margin-top: -10px;
+
+      p {
+        text-align: center;
+        text-decoration: none;
+        color: $white;
+        font-family: ProximaThin;
+        font-size: 30px;
+      }
+    }
+
+    .blue-button {
+      width: 122px;
+      height: 40px;
+      margin: 0 auto;
+      margin-top: 80px;
+
+      button {
+        padding: 15px;
+        border: none;
+        border-radius: 25px;
+        white-space: nowrap;
+        background-color: $site-blue;
+        color: $white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Gill;
+      }
+    }
+  }
+
+  //australia
+  .promo3 {
+    height: 304px;
+    width: 236px;
+    background-image: linear-gradient(to right, $overlay, $overlay),
+      url(../images/tours/tour-03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .trip-title {
+      padding-top: 20px;
+      width: 182px;
+      height: 80px;
+      margin: 0 auto;
+      margin-top: 20px;
+
+      p {
+        text-align: center;
+        text-decoration: none;
+        color: $white;
+        font-family: ProximaThin;
+        font-size: 35px;
+      }
+    }
+
+    .price-text {
+      width: 182px;
+      height: 40px;
+      margin: 0 auto;
+      margin-top: -10px;
+
+      p {
+        text-align: center;
+        text-decoration: none;
+        color: $white;
+        font-family: ProximaThin;
+        font-size: 30px;
+      }
+    }
+
+    .blue-button {
+      width: 122px;
+      height: 40px;
+      margin: 0 auto;
+      margin-top: 80px;
+
+      button {
+        padding: 15px;
+        border: none;
+        border-radius: 25px;
+        white-space: nowrap;
+        background-color: $site-blue;
+        color: $white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Gill;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .promo-tours {
+    width: 236px;
+    //display: block;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .promo1 {
+      margin-bottom: 30px;
+    }
+
+    .promo2 {
+      margin-bottom: 30px;
+    }
+
+    .promo3 {
+      margin-bottom: 30px;
+    }
+  }
+}
